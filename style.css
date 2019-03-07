@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background-color: coral;
+}
+
+.game{
+    margin: 5vh auto 5vh 10vw;
+    background-color: coral;
+    width: 90vw;
+    height: 70vh;
+    border-left: 5px brown solid;
+    display: inline-block;
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%); */
+}
+
+.game .filde{
+    /* height: 20vh;
+    width: 15vw; */
+    padding: 4%;
+    margin: 2%;
+    border-radius: 10px;
+    border: none;
+    font-size: 210%;
+    font-weight: bold;
+    color: brown;
+}
+
+#restart-btn{
+    position: absolute;
+    bottom: 49vh;
+    left: 70vh;
+    width: 80vh;
+    height: 3em;
+    transform: rotate(90deg);
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+#blah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
